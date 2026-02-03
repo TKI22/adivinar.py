@@ -3,8 +3,8 @@ nombre1 = input("Jugador 1 ¿Cuál es tu nombre?: ")
 nombre2 = input("Jugador 2 ¿Cuál es tu nombre?: ")
 print()
 
-jugador1 = input("Hola jugador 1, ¿Qué eliges? ¿Piedra, Papel o Tijera?: ").lower
-jugador2 = input("Hola jugador 2, ¿Qué eliges? ¿Piedra, Papel o Tijera?: ").lower
+jugador1 = input(f"Hola {nombre1}, ¿Qué eliges? ¿Piedra, Papel o Tijera?: ").lower
+jugador2 = input(f"Hola {nombre2}, ¿Qué eliges? ¿Piedra, Papel o Tijera?: ").lower
 print()
 
 if jugador1 == jugador2:
